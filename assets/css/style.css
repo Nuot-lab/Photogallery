@@ -1,0 +1,36 @@
+.container{
+	width: 100%;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+
+.container ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.container ul li{
+	flex-grow: 1;
+	list-style:none;
+	width:200px;
+	margin: 10px 10px 10px 10px;
+	display: flex;
+}
+
+
+.container img {
+    object-fit: cover;
+  	width: 200px;
+  	height: 200px;
+  	flex-grow: 1;
+  	display: flex;
+	align-items: center;
+}
+
+
+.container ul li a img {
+	max-width: 100%;
+}
+
